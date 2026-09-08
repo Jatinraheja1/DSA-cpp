@@ -1,17 +1,21 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-void print1(int n){
-    for(int i=0;i<n;i++){
-        for(int j=1;j<=n-i;j++){
-            cout<<j;
+void print6(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 1; j <= n - i; j++)
+        {
+            cout << j;
         }
-        cout<<endl;
+        cout << endl;
     }
 }
-int main(){
+int main()
+{
     int n;
-    cout<<"enter no. of rows : ";
-    cin>>n;
-    print1(n);
+    cout << "enter no. of rows : ";
+    cin >> n;
+    print6(n);
     return 0;
 }
