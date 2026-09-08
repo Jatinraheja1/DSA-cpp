@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-void print8(int n)
+void print9(int n)
 {
     class Solution
     {
@@ -39,6 +39,6 @@ int main()
     int n;
     cout << "enter no. of rows :";
     cin >> n;
-    print8(n);
+    print9(n);
     return 0;
 }
